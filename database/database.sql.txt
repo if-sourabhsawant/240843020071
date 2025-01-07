@@ -1,0 +1,12 @@
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100)
+);
+
+
+INSERT INTO users (name, email, password) VALUES 
+('aditya chavan', 'aditya@example.com', 'password123'),
+('nikhil sabale', 'nikhil@example.com', 'password456');
